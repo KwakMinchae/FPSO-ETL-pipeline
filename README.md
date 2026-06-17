@@ -1,6 +1,8 @@
 # FPSO-ETL-pipeline
 TLDR; 
-ETL (Extract, Transform, Load) pipeline for FPSO actuated valve instrumentation data. Extracts 118 fields across 200+ spec sheets from a DRM-encrypted Excel workbook. Uses Windows COM automation (xlwings) to bypass file-level encryption. Outputs a single consolidated database via openpyxl. 
+ETL pipeline that extracts 118 instrumentation fields from 200+ actuated valve datasheets across a DRM-encrypted Excel workbook, transforming multi-tab P&ID-referenced spec sheets into a single consolidated database via Windows COM automation (xlwings + openpyxl).
+
+
 
 This tool was made during an internship in Hanwha Ocean, which builds FPSO. 
 FPSO stands for Floating Production Storage and Offloading. This platform extracts crude oil from a seabed, which is then processed on the ship. Once processed, the final products of oil and gas are offloaded to other companies' ships. 
