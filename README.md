@@ -1,7 +1,7 @@
 # FPSO-ETL-pipeline
 TLDR; 
 ETL pipeline that extracts 118 instrumentation fields from 200+ actuated valve datasheets across a DRM-encrypted Excel workbook, transforming multi-tab P&ID-referenced spec sheets into a single consolidated database via Windows COM automation (xlwings + openpyxl).
-
+https://docs.google.com/spreadsheets/d/1keLMVZHBEabpmkpsGntJGgJ3v8E4-4j-0nda7wl2G0A/edit?gid=0#gid=0
 
 
 This tool was made during an internship in Hanwha Ocean, which builds FPSO. 
